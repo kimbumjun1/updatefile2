@@ -1,0 +1,26 @@
+.cartblock-container {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.cart-info-summary, .cart-info-policy {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.cart-info-summary button {
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 50px;
+    font-size:large;
+    font-weight: 500;
+    color: white;
+    background-color: #0089FF;
+}
+.cart-info-summary button:hover, .cart-info-summary button:active {
+    background-color: white;
+    border: 2px solid #0089FF;
+    color: #0089FF;
+}
